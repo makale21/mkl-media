@@ -1,0 +1,17 @@
+div{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 25px solid red;
+    border-top: 20px solid green;
+    animation: ani 2.5s linear infinite;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg)
+    }
+}
+body{
+    background-color: #333;
+}

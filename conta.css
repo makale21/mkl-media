@@ -1,0 +1,25 @@
+body{
+    background-image: url("breezy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-attachment: fixed;
+}
+a:link, a:visited{
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+a:hover, a:active{
+    background-color: red;
+}
+.juu{
+    border: 1px solid white;
+    background-color: whitesmoke;
+}
+p{
+    color: white;
+}
